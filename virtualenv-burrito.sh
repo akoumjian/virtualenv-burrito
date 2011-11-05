@@ -20,7 +20,7 @@ if [ -e "$VENVBURRITO" ]; then
     echo "Found existing $VENVBURRITO"
     echo
     echo "Looks like virtualenv-burrito is already installed. Bye."
-    exit 1
+    exit 0
 fi
 
 
